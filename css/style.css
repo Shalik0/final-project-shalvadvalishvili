@@ -7,14 +7,25 @@
 .header-container{
     padding: 18px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
-    width: 25%;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
 }
 
 ul{
     display: flex;
+}
+
+.user li{
+    margin-right: 14px;
 }
 
 li a{
@@ -27,3 +38,78 @@ li a{
     text-decoration: none;
     margin-left: 40px;
 }
+
+form{
+    margin-left: 79px;
+    margin-bottom: 15px;
+}
+
+input{
+    border: none;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.50);
+    padding-left: 10px;
+}
+
+.sec-1{
+    margin-bottom: 98px;
+}
+
+.sec-2 .title{
+    color: #000;
+    font-family: Kaisei Decol;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 102px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+}
+
+.card {
+    transition: 0.3s;
+    width: 324px;
+    height: 410px;
+    margin-left: 45px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .container p{
+    color: #000;
+    font-family: JejuMyeongjo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .container h1{
+    color: #000;
+    font-family: JejuMyeongjo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .left-arrow{
+    margin-left: 50px;
+    margin-right: 52px;
+  }
+
+  .right-arrow{
+    margin-left: 98px;
+  }
