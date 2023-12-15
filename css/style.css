@@ -139,3 +139,10 @@ input{
  .sec-3{
     margin-top: 113px;
  }
+
+ .sec-4{
+    margin-top: 99px;
+    background-image: url("/pics/bg-img.jpg");
+    height: 600px;
+    width: 100%;
+ }
