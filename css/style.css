@@ -1,18 +1,18 @@
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+header{
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header-container{
-    padding: 18px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    height: 131px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
 .logo{
-    height: 50px;
+  width: 200px;
+  margin-top: 20px
 }
 
 nav{
@@ -22,10 +22,17 @@ nav{
 
 ul{
     display: flex;
+    max-width: 1200px;
 }
 
 .user li{
     margin-right: 14px;
+}
+
+.menu li{
+  width: 76px;
+  height: 20px;
+  margin-left: 63px;
 }
 
 li a{
@@ -36,10 +43,11 @@ li a{
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    margin-left: 40px;
 }
 
 form{
+    height: 33px;
+    width: 232px;
     margin-left: 79px;
     margin-bottom: 15px;
 }
@@ -80,6 +88,10 @@ input{
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .sec-2{
+    display: block;
   }
   
   .container {
