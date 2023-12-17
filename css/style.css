@@ -3,7 +3,7 @@ header{
   max-width: 1200px;
 }
 
-.header-container{
+.header{
     display: flex;
     height: 131px;
     max-width: 1200px;
@@ -45,14 +45,14 @@ li a{
     text-decoration: none;
 }
 
-form{
+.form1{
     height: 33px;
     width: 232px;
     margin-left: 79px;
     margin-bottom: 15px;
 }
 
-input{
+.input1{
     border: none;
     border-radius: 40px;
     background: rgba(217, 217, 217, 0.50);
@@ -193,3 +193,129 @@ input{
  .news{
     padding-top: 189px;
  }
+
+footer{
+  background: #E4E4E4;
+  height: 430px;
+  flex-shrink: 0;
+}
+
+.footer{
+  display: flex;
+}
+
+.left-side{
+  padding-left: 54px;
+}
+
+.left-side .b-logo{
+  width: 140px;
+  padding-bottom: 30px;
+  padding-top: 52px;
+}
+
+.left-side a {
+  display: block;
+  color: #000;
+  font-family: Kameron;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+
+.left-side .bottom{
+  display: flex;
+  margin-top: 32px;
+}
+
+
+.left-side .bottom h2{
+  color: #000;
+  font-family: Kameron;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.right-side{
+  display: flex;
+  margin-top: 61px;
+  margin-left: 261px;
+}
+
+.right-side p{
+  color: #000;
+  font-family:cursive;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid #000 ;
+  margin-bottom: 32.5px;
+}
+
+.right-side a{
+  display: block;
+  color: #000;
+  font-family: Kameron;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin-bottom: 17px;
+}
+
+.right-side .help{
+  margin-right: 183px;
+}
+
+.right-side .contact{
+  margin-right: 173px;
+}
+
+.icons i{
+  margin-right: 26px;
+  font-size: 25px;
+}
+
+.message{
+  margin-left: 431px;
+  margin-top: 91px;
+}
+
+.input2{  
+  width: 339px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: #FFF;
+  padding-left: 13px;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.message button{
+  width: 148px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #273A47;
+  color: #FFF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
