@@ -1,7 +1,6 @@
 header{
     margin: 0 auto;
     max-width: 1200px;
-    margin-bottom: 750px;
   }
   
   .header{
@@ -61,6 +60,10 @@ header{
       border-radius: 40px;
       background: rgba(217, 217, 217, 0.50);
       padding-left: 10px;
+  }
+
+  .section1{
+    height: 702px;
   }
 
   .sec-1{

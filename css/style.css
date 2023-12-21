@@ -81,6 +81,7 @@ li a{
 .cards{
     display: flex;
     margin-bottom: 98px;
+    margin-left: 2%;
 }
 
 .card {
