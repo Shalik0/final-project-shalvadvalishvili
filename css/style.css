@@ -81,7 +81,7 @@ li a{
 .cards{
   display: flex;
   justify-content: center;
-    margin-bottom: 98px;
+  margin-bottom: 98px;
 }
 
 .card {
@@ -129,11 +129,6 @@ li a{
     font-weight: 400;
     line-height: normal;
     text-align: center;
-  }
-
-  .left-arrow{
-    margin-left: 50px;
-    margin-right: 52px;
   }
 
   .right-arrow{
