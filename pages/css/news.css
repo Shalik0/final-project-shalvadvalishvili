@@ -150,6 +150,7 @@ footer{
   background: #E4E4E4;
   height: 430px;
   flex-shrink: 0;
+  margin-top: 50px;
 }
 
 .footer{
