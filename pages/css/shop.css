@@ -126,6 +126,10 @@ header{
   margin-left: 45px;
 }
 
+.card img{
+  width: 324px;
+}
+
 
 .container {
   padding: 2px 16px;
