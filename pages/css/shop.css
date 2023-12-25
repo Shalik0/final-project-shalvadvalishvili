@@ -30,7 +30,7 @@ header{
   }
   
   .menu li{
-    width: 78px;
+   
     height: 20px;
     margin-left: 63px;
   }
@@ -125,13 +125,13 @@ header{
 
 
 .card {
-  width: 324px;
+  width: 100%;
   height: 300px;
   margin-left: 45px;
 }
 
 .card img{
-  width: 324px;
+  width: 100%;
 }
 
 
