@@ -105,7 +105,8 @@ header{
 
 .cards{
   margin: 0 auto;
-  margin-left: 12%;
+  justify-content: center;
+  margin-right: 6%;
 }
 
 .cards1{

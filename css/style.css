@@ -34,7 +34,6 @@ ul{
 }
 
 .menu li{
- 
   height: 20px;
   margin-left: 63px;
 }
@@ -90,13 +89,13 @@ li a{
 
 .card {
     transition: 0.3s;
-    width: 100%;
+    width: 324px;
     height: 410px;
     margin-left: 45px;
   }
   
   .card img{
-    width: 100%;
+    width: 324px;
   }
   
   .card:hover {
