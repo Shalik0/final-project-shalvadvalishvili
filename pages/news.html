@@ -3,16 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title>Shop</title>
+    <link rel="icon" type="image/x-icon" href="pics/logo.png">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/14e93f535b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <a href="https://www.tbceducation.ge/"><img class="logo" src="pics/tbc.png" alt=""></a>
-        <a href="/index.html">Home</a>
-        <a href="pages/about.html">About us</a>
-        <a href="pages/products.html">Shop</a>
-        <a href="pages/news.html">News</a>
-        <a href="pages/contact.html">Socials</a>
+        <div class="header">
+                <a href="https://www.tbceducation.ge/"><img class="logo" src="pics/tbc.png" alt=""></a>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a  href="/pages/about.html">About us</a></li>
+                        <li><a href="/pages/products.html">Shop</a></li>
+                        <li><a class="current" href="#">News</a></li>
+                        <li><a href="/pages/contact.html">Socials</a></li>
+                    </ul>
+
+                <form class="form1" action="/action_page.php">
+                    <input class="input1" placeholder="search" type="search" id="gsearch" name="gsearch">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </form>
+
+                  <ul class="user">
+                    <li><img src="pics/user.svg" alt=""></li>
+                    <li><img src="pics/cart.svg" alt=""></li>
+                  </ul>
+
+                </nav>                  
+        </div>
     </header>
+
+    <section>
+        <div class="banner">
+            <h1>News, updates & upcoming concerts</h1>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+    
 </body>
 </html>
