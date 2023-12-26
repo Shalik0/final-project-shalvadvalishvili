@@ -1,5 +1,13 @@
 @media (max-width:1200px) {
-    ul{
-        padding-left: 0px;
+    .menu li{
+        margin-left:20px ;
+    }
+    .message {
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+
+    .right-side{
+        margin-left: 100px;
     }
 }
