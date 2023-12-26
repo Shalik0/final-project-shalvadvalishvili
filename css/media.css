@@ -11,3 +11,14 @@
         margin-left: 100px;
     }
 }
+
+
+@media (max-width:1024px){
+    nav{
+        display: none;
+    }
+
+    .left-side .bottomenu{
+        display: none;
+    }
+}

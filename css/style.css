@@ -95,7 +95,7 @@ li a{
   }
   
   .card img{
-    width: 324px;
+    width: 100%;
   }
   
   .card:hover {
