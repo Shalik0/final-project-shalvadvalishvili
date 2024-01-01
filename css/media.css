@@ -36,4 +36,8 @@
     .right-arrow{
         display: none;
     }
+
+    .right-side .help{
+        margin-right: 110px;
+      }
 }
