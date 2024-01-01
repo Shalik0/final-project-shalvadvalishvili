@@ -10,6 +10,10 @@
     .right-side{
         margin-left: 100px;
     }
+
+    .right-side .contact {
+        margin-right: 80px;
+    }
 }
 
 
@@ -19,6 +23,17 @@
     }
 
     .left-side .bottomenu{
+        display: none;
+    }
+
+    .cards{
+        display: block;
+        justify-content: center;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .right-arrow{
         display: none;
     }
 }

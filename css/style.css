@@ -216,7 +216,7 @@ footer{
 }
 
 .left-side{
-  padding-left: 54px;
+  padding-left: 44px;
 }
 
 .left-side .b-logo{
@@ -257,7 +257,7 @@ footer{
 .right-side{
   display: flex;
   margin-top: 61px;
-  margin-left: 261px;
+  margin-left: 210px;
 }
 
 .right-side p{
@@ -288,16 +288,16 @@ footer{
 }
 
 .right-side .contact{
-  margin-right: 173px;
+  margin-right: 153px;
 }
 
 .icons i{
-  margin-right: 26px;
+  margin-right: 10px;
   font-size: 25px;
 }
 
 .message{
-  margin-left: 431px;
+  margin-left: 231px;
   margin-top: 91px;
 }
 
