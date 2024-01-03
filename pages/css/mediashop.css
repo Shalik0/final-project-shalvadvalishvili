@@ -26,21 +26,10 @@
         display: none;
     }
 
-    .cards{
-        display: block;
-        justify-content: center;
-    }
-    .card{
-        margin-bottom: 54px;
-        display: block;
-        margin-left: 33%;
-    }
-    .left-arrow{
-        display: none;
-    }
-    .right-arrow{
-        display: none;
-    }
+    .howmuch{
+        height: 50px;
+        padding-left: 0%;
+      }
 
     .right-side .help{
         margin-right: 110px;
@@ -52,6 +41,31 @@
 }
 
 @media (max-width:768px) {
+
+    .cards1{
+        display: block;
+    }
+
+    .cards2{
+        display: none;
+    }
+
+    .cards3{
+        display: none;
+    }
+
+    .card{
+        margin-bottom: 54px;
+        width: 50%;
+        margin-left: 29%;
+    }
+
+    .howmuch{
+        height: 50px;
+        padding-left: 10%;
+        padding-bottom: 15%;
+      }
+
     .right-side .help{
         margin-right: 80px;
       }
