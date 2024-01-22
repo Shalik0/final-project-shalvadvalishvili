@@ -21,7 +21,6 @@
     nav{
         display: none;
     }
-
     .burger{
         display:block;
         margin-left: 70%;
@@ -68,7 +67,7 @@
 
     .burger{
         display:block;
-        margin-left: 50%;
+        margin-left: 60%;
         margin-top: 60px;
     }
     .burger i{
@@ -129,9 +128,6 @@
     }
     .message button{
         display: none;
-    }
-    .right-side{
-
     }
     .right-side .contact {
         margin-right: 55px;

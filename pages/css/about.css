@@ -26,7 +26,7 @@ header{
   }
   
   .user li{
-      margin-right: 14px;
+       margin-right: 10px;
   }
   
   .menu li{
@@ -180,7 +180,7 @@ footer{
   font-weight: 400;
   line-height: normal;
   margin-left: 14px;
-  margin-right: 14px;
+   margin-right: 10px;
 }
 
 .right-side{
