@@ -1,0 +1,20 @@
+.pages{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.pages a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: Judson;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pages :hover{
+    color:  #ff0000;
+}
