@@ -66,6 +66,10 @@ header{
       padding-left: 10px;
   }
 
+  .burger{
+    display: none;
+  }
+
   .sec-1{
     display: grid;
     text-align: center;

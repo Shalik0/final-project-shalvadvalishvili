@@ -71,7 +71,7 @@ header{
   }
 
   .section1{
-    height: 802px;
+    height: 630px;
   }
 
   .sec-1{
@@ -90,14 +90,14 @@ header{
     background-image: url(../pics/ANIK-Feel_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 100%;
     width: 100%;
   }
 
   .txt {
     width: 50%;
-    height: 100%;
+    height: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +133,9 @@ header{
     line-height: normal;
     flex-shrink: 0;
   }
-  
+  .txt1{
+    display: none;
+  }
 footer{
   background: #E4E4E4;
   height: 430px;

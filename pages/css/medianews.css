@@ -1,6 +1,6 @@
 @media (max-width:1200px) {
     .menu li{
-        margin-left:20px ;
+        margin-left:25px ;
     }
     .message {
         margin-left: 150px;
@@ -21,6 +21,7 @@
     nav{
         display: none;
     }
+
     .burger{
         display:block;
         margin-left: 70%;
@@ -35,19 +36,30 @@
     .left-side .bottomenu{
         display: none;
     }
-    
 
-    .howmuch{
-        height: 50px;
-        padding-left: 0%;
-      }
+    .cards{
+        display: block;
+        justify-content: center;
+        margin-left: -10%;
+    }
+    .card{
+        margin-bottom: 54px;
+        display: block;
+        margin-left: 33%;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .right-arrow{
+        display: none;
+    }
 
     .right-side .help{
         margin-right: 110px;
     }    
       
     .message{
-    margin-left:100px;  
+       margin-left:100px;  
     }
 }
 
@@ -65,6 +77,7 @@
         font-size: 30px;
         color: #000;
     }
+
     .left-side .bottom{
         margin-top: 220px;
     }
@@ -91,33 +104,9 @@
        margin-left:-180px;  
     }
 
-    .cards1{
-        display: block;
-    }
-
-    .cards2{
-        display: none;
-    }
-
-    .cards3{
-        display: none;
-    }
-
-    .card{
-        margin-bottom: 54px;
-        width: 50%;
-        margin-left: 29%;
-    }
-
-    .howmuch{
-        height: 50px;
-        padding-left: 1%;
-        padding-bottom: 17%;
-      }
-
 }
 
-@media (max-width:411px) {
+@media (max-width:432px) {
     .logo{
         width: 150px;
     }
@@ -128,9 +117,8 @@
         margin-left: 200px;
         margin-top: 60px;
     }
-
     .banner h1{
-        top: 35%;
+        top: 30%;
     }
     .card{
         margin-bottom: 54px;
@@ -138,7 +126,10 @@
         margin-left: 13%;
         width: 280px;
     }
-
+    .cards{
+        margin-right: 100%;
+        margin-left: 0px;
+    }
     .message{
         display: none;
     }
@@ -151,4 +142,14 @@
     .right-side{
     margin-right: 0px;
 }
+}
+
+@media (max-width:370px) {
+    .burger{
+        margin-left: 70px;
+    }
+    .card{
+        margin-left: 15%;
+        width: 180px;
+    }
 }
