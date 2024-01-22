@@ -66,6 +66,10 @@ header{
       padding-left: 10px;
   }
 
+  .burger{
+    display: none;
+  }
+
   .banner{
     height: 600px;
     width: 100%;

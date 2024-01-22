@@ -66,6 +66,10 @@ header{
       padding-left: 10px;
   }
 
+  .burger{
+    display: none;
+  }
+
   .section1{
     height: 802px;
   }

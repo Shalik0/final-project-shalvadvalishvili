@@ -1,6 +1,6 @@
 @media (max-width:1200px) {
     .menu li{
-        margin-left:30px ;
+        margin-left:25px ;
     }
     .message {
         margin-left: 150px;
@@ -20,6 +20,16 @@
 @media (max-width:1020px){
     nav{
         display: none;
+    }
+
+    .burger{
+        display:block;
+        margin-left: 70%;
+        margin-top: 60px;
+    }
+    .burger i{
+        font-size: 30px;
+        color: #000;
     }
 
     .left-side .bottomenu{
@@ -65,10 +75,27 @@
         font-size: 30px;
         color: #000;
     }
+    .left-side .bottom{
+        margin-top: 220px;
+    }
     .right-side .help{
         margin-right: 80px;
       }
 
+    .right-side{
+        margin-left: -270px;
+        margin-top: 130px;
+    }
+
+    .right-side p{
+        font-size: 16px;
+    }
+    .right-side a{
+        font-size: 14px;
+    }
+    .right-side i{
+        font-size: 16px;
+    }
     .message{
         display: none;
        margin-left:-180px;  
@@ -103,8 +130,11 @@
     .message button{
         display: none;
     }
-    .right-side1{
-        display: none;
+    .right-side{
+
+    }
+    .right-side .contact {
+        margin-right: 55px;
     }
 }
 
