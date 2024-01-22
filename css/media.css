@@ -1,6 +1,6 @@
 @media (max-width:1200px) {
     .menu li{
-        margin-left:20px ;
+        margin-left:30px ;
     }
     .message {
         margin-left: 150px;
@@ -17,7 +17,7 @@
 }
 
 
-@media (max-width:1024px){
+@media (max-width:1020px){
     nav{
         display: none;
     }
@@ -47,23 +47,70 @@
     }    
       
     .message{
-    margin-left:100px;  
+       margin-left:100px;  
     }
 }
 
 @media (max-width:768px) {
+    .logoa{
+        margin-top: 20px;
+    }
+
+    .burger{
+        display:block;
+        margin-left: 50%;
+        margin-top: 60px;
+    }
+    
     .right-side .help{
         margin-right: 80px;
       }
 
     .message{
-       margin-left:-140px;  
+        display: none;
+       margin-left:-180px;  
     }
 
 }
 
-@media (max-width:411px) {
+@media (max-width:432px) {
     .logo{
         width: 150px;
+    }
+    .logoa{
+        margin-top: 20px;
+    }
+    .burger{
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    .card{
+        margin-bottom: 54px;
+        display: block;
+        margin-left: 13%;
+        width: 280px;
+    }
+
+    .message{
+        display: none;
+    }
+    .input2{
+        display: none;
+    }
+    .message button{
+        display: none;
+    }
+    .right-side1{
+        display: none;
+    }
+}
+
+@media (max-width:370px) {
+    .burger{
+        margin-left: 70px;
+    }
+    .card{
+        margin-left: 15%;
+        width: 180px;
     }
 }
