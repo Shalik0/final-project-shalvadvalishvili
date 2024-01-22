@@ -21,11 +21,13 @@
     nav{
         display: none;
     }
+
     .burger{
         display:block;
         margin-left: 70%;
         margin-top: 60px;
     }
+
     .burger i{
         font-size: 30px;
         color: #000;
@@ -38,6 +40,8 @@
     .cards{
         display: block;
         justify-content: center;
+        margin-left: 12%;
+        margin-right: 50%;
     }
     .card{
         margin-bottom: 54px;
@@ -129,9 +133,9 @@
     .message button{
         display: none;
     }
-    .right-side .contact {
-        margin-right: 55px;
-    }
+    .right-side{
+    margin-right: 0px;
+}
 }
 
 @media (max-width:370px) {
