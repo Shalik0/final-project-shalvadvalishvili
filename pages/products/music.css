@@ -116,6 +116,7 @@ header{
     margin-left:5%;
     display: flex;
     margin-bottom: 300px;
+    padding-right: 100px;
   }
 
   .left-side1{
@@ -126,6 +127,9 @@ header{
     width: 50%;
   }
   
+  .right-side1{
+    width: 500px;
+  }
 
   .info{
     width: 500px;
@@ -317,6 +321,7 @@ footer{
 .message{
   margin-left: 431px;
   margin-top: 91px;
+  display: none;
 }
 
 .input2{  

@@ -1,0 +1,192 @@
+@media (max-width:1200px) {
+    .menu li{
+        margin-left:25px ;
+    }
+    .message {
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+
+    .right-side{
+        margin-left: 100px;
+    }
+
+    .right-side .contact {
+        margin-right: 80px;
+    }
+}
+
+
+@media (max-width:1020px){
+    nav{
+        display: none;
+    }
+
+    .burger{
+        display:block;
+        margin-left: 70%;
+        margin-top: 60px;
+    }
+
+    .burger i{
+        font-size: 30px;
+        color: #000;
+    }
+
+    .left-side .bottomenu{
+        display: none;
+    }
+
+    .banner{
+        height: 300px;
+    }
+    .banner h1{
+        font-size: 36px;
+        top: 30%;
+    }
+
+    .right-side0{
+        display: none;
+    }
+
+    .left-side0{
+        margin-right: 0%;
+    }
+
+    .cards{
+        display: block;
+        justify-content: center;
+        margin-left: 12%;
+        margin-right: 50%;
+    }
+    .card{
+        margin-bottom: 54px;
+        display: block;
+        margin-left: 33%;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .right-arrow{
+        display: none;
+    }
+
+    .right-side .help{
+        margin-right: 110px;
+    }    
+      
+    .message{
+       margin-left:100px;  
+    }
+}
+
+@media (max-width:768px) {
+    .logoa{
+        margin-top: 20px;
+    }
+
+    .burger{
+        display:block;
+        margin-left: 60%;
+        margin-top: 60px;
+    }
+    .burger i{
+        font-size: 30px;
+        color: #000;
+    }
+    .left-side .bottom{
+        margin-top: 220px;
+    }
+    .right-side .help{
+        margin-right: 80px;
+      }
+
+    .right-side{
+        margin-left: -235px;
+        margin-top: 130px;
+    }
+
+    .right-side p{
+        font-size: 16px;
+    }
+    .right-side a{
+        font-size: 14px;
+    }
+    .right-side i{
+        font-size: 16px;
+    }
+    .message{
+        display: none;
+       margin-left:-180px;  
+    }
+
+}
+
+@media (max-width:432px) {
+    .logo{
+        width: 150px;
+    }
+    .logoa{
+        margin-top: 20px;
+    }
+    .burger{
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    .card{
+        margin-bottom: 54px;
+        display: block;
+        margin-left: 13%;
+        width: 280px;
+    }
+
+    .info h1{
+        font-size:20px ;
+    }
+
+    .info h2{
+        font-size:16px ;
+    }
+
+    .info p{
+        font-size:13px ;
+    }
+
+    .info h3{
+        font-size:14px ;
+    }
+    .howmuch{
+        width: 53.829px;
+        height: 29.715px;
+        flex-shrink: 0;
+    }
+
+    .addbtn{
+        width: 103px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .message{
+        display: none;
+    }
+    .input2{
+        display: none;
+    }
+    .message button{
+        display: none;
+    }
+    .right-side{
+    margin-right: 0px;
+}
+}
+
+@media (max-width:370px) {
+    .burger{
+        margin-left: 70px;
+    }
+    .card{
+        margin-left: 15%;
+        width: 180px;
+    }
+}
