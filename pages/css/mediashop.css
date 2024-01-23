@@ -117,7 +117,7 @@
 
 }
 
-@media (max-width:411px) {
+@media (max-width:450px) {
     .logo{
         width: 150px;
     }
@@ -125,7 +125,7 @@
         margin-top: 20px;
     }
     .burger{
-        margin-left: 200px;
+        margin-left: 40%;
         margin-top: 60px;
     }
 
@@ -138,7 +138,9 @@
         margin-left: 13%;
         width: 280px;
     }
-
+    .pn{
+        margin-left: 30%;
+    }
     .message{
         display: none;
     }
@@ -151,4 +153,14 @@
     .right-side{
     margin-right: 0px;
 }
+}
+
+@media (max-width:370px) {
+    .burger{
+        margin-left: 30%;
+    }
+    .card{
+        margin-left: 15%;
+        width: 180px;
+    }
 }
